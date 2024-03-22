@@ -1,0 +1,13 @@
+@mixin boton {
+    color: #e5f8e5;
+    border: 1px solid #4e5c4e;
+    background-color: #4e5c4e;
+    -webkit-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+    -moz-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+    box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+
+    &:hover{
+        background-color: #869386;
+    }
+
+}

@@ -1,0 +1,95 @@
+.background-container{
+    main{
+       height: 120em !important;
+
+        .carousel{
+            img{
+                height: 15em !important;
+            }
+        }
+        
+        h1{
+            color: #4e5c4e;
+            margin-top: 1em;
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #a1dca1;
+            font-weight: bold; 
+            letter-spacing: -1px;
+            margin-bottom: 1em;
+        }
+
+        .moñas-container{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1em;
+            .moñas-card{
+                background-color: #4e5c4e;
+                -webkit-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+                -moz-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+                box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+                margin: 1.5em;
+                p{
+                    color: #a1dca1;
+                    text-align: center;
+                    padding: 1em;
+
+                }
+            }
+
+        }
+
+        .button-container{
+            display: flex;
+            margin-bottom: 5em;
+            margin-top: 1em;
+            align-items: center;
+            justify-content: center;
+
+            .button{
+                @include boton;
+            }
+            
+        }
+        
+        .collage{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3em;
+            .collage-item{
+                border: #4e5c4e 2px solid;
+                margin: 1em;
+            }
+            .item-1{
+                transform: translateX(-1em);
+                rotate: -10deg;
+                transition: all 2s;
+                &:hover{
+                    transform: translateX(0.5em);
+                    rotate: 5deg;
+                }
+            }
+            .item-2{
+                transform: translateX(1em);
+                rotate: 5deg;
+                transition: all 2s;
+                &:hover{
+                    transform: translateX(-0.5em);
+                    rotate: -5deg;
+                }
+            }
+            .item-3{
+                transform: translateX(-0.5em);
+                rotate: -15deg;
+                transition: all 2s;
+
+                &:hover{
+                    transform: translateX(-0.5em);
+                    rotate: 5deg;
+                }
+            }
+
+        }
+        
+    }
+}

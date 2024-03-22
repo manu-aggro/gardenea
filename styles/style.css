@@ -1,0 +1,122 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Georgia;
+  color: #4e5c4e;
+}
+
+.background-container {
+  background-color: #e5f8e5;
+}
+
+header img {
+  width: 3em;
+}
+
+.footer-container {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #F8F9FA;
+  border-top: black 1px solid;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+.footer-container a img {
+  margin-right: 1em;
+}
+
+.background-container main {
+  height: 120em !important;
+}
+.background-container main .carousel img {
+  height: 15em !important;
+}
+.background-container main h1 {
+  color: #4e5c4e;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #a1dca1;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 1em;
+}
+.background-container main .moñas-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.background-container main .moñas-container .moñas-card {
+  background-color: #4e5c4e;
+  -webkit-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  margin: 1.5em;
+}
+.background-container main .moñas-container .moñas-card p {
+  color: #a1dca1;
+  text-align: center;
+  padding: 1em;
+}
+.background-container main .button-container {
+  display: flex;
+  margin-bottom: 5em;
+  margin-top: 1em;
+  align-items: center;
+  justify-content: center;
+}
+.background-container main .button-container .button {
+  color: #e5f8e5;
+  border: 1px solid #4e5c4e;
+  background-color: #4e5c4e;
+  -webkit-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+}
+.background-container main .button-container .button:hover {
+  background-color: #869386;
+}
+.background-container main .collage {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+.background-container main .collage .collage-item {
+  border: #4e5c4e 2px solid;
+  margin: 1em;
+}
+.background-container main .collage .item-1 {
+  transform: translateX(-1em);
+  rotate: -10deg;
+  transition: all 2s;
+}
+.background-container main .collage .item-1:hover {
+  transform: translateX(0.5em);
+  rotate: 5deg;
+}
+.background-container main .collage .item-2 {
+  transform: translateX(1em);
+  rotate: 5deg;
+  transition: all 2s;
+}
+.background-container main .collage .item-2:hover {
+  transform: translateX(-0.5em);
+  rotate: -5deg;
+}
+.background-container main .collage .item-3 {
+  transform: translateX(-0.5em);
+  rotate: -15deg;
+  transition: all 2s;
+}
+.background-container main .collage .item-3:hover {
+  transform: translateX(-0.5em);
+  rotate: 5deg;
+}
+
+/*# sourceMappingURL=style.css.map */
