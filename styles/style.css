@@ -32,7 +32,7 @@ header img {
 }
 
 .background-container main {
-  height: 120em !important;
+  height: 125em !important;
 }
 .background-container main .carousel img {
   height: 15em !important;
@@ -72,7 +72,7 @@ header img {
   justify-content: center;
 }
 .background-container main .button-container .button {
-  color: #e5f8e5;
+  color: #a1dca1;
   border: 1px solid #4e5c4e;
   background-color: #4e5c4e;
   -webkit-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
