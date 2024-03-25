@@ -1,0 +1,30 @@
+main{
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    .carousel{
+        
+        margin: 1em !important;
+    }
+    h2{
+        color: #4e5c4e;
+            margin-top: 1em;
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #a1dca1;
+            font-weight: bold; 
+            letter-spacing: -1px;
+            margin-bottom: 1em;
+    }
+
+    .quienes-somos{
+        
+        p{
+            text-align: center;
+            margin: 1em;
+        }
+
+    }
+    
+
+}

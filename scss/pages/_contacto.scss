@@ -1,0 +1,36 @@
+main{
+
+    height: 100%;
+
+    .map-container{
+        display: flex;
+        margin: 1em;
+        margin-top: 4em;
+        justify-content: center;
+        align-items: center;
+        .mapa{
+            width: 100%;
+        }
+
+    }
+    .datos-contacto-container{
+        display: flex;
+        flex-direction: column;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1em;
+            
+            img{
+                margin-right: 0.5em;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+        .email-container{
+            margin-bottom: 5em;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 .background-container{
     main{
-       height: 125em !important;
+       
 
         .carousel{
             img{
@@ -57,8 +57,13 @@
             flex-direction: column;
             margin-bottom: 3em;
             .collage-item{
-                border: #4e5c4e 2px solid;
-                margin: 1em;
+                background-color:white;
+
+                padding:10px 10px 50px 10px;
+
+                 border:1px solid #BFBFBF;
+
+                 box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
             }
             .item-1{
                 transform: translateX(-1em);
