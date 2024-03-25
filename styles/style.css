@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 * {
   font-family: "Times New Roman", Times, serif;
   color: #4e5c4e;
@@ -31,8 +35,8 @@ header img {
   margin-right: 1em;
 }
 
-.background-container main .carousel img {
-  height: 15em !important;
+.background-container main {
+  width: 100% !important;
 }
 .background-container main h1 {
   color: #4e5c4e;
