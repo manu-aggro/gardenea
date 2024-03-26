@@ -178,4 +178,24 @@ main .quienes-somos p {
   margin: 1em;
 }
 
+main .card-group {
+  margin: 1em;
+  margin-top: 5em;
+}
+main .card-group .card {
+  background-color: #4e5c4e;
+  -webkit-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
+  margin: 1.5em;
+}
+main .card-group .card h5 {
+  color: #a1dca1;
+  font-weight: bold;
+}
+main .card-group .card p {
+  color: #a1dca1;
+  padding: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */

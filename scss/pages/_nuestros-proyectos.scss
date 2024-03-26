@@ -1,0 +1,23 @@
+main{
+    .card-group{
+        margin: 1em;
+        margin-top: 5em;
+        .card{
+            background-color: #4e5c4e;
+            -webkit-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+            -moz-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+            box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.74);
+            margin: 1.5em;
+            h5{
+                color: #a1dca1;
+                font-weight: bold;
+            }
+            p{
+                color: #a1dca1;
+                
+                padding: 1em;
+
+            }
+        }
+    }
+}
