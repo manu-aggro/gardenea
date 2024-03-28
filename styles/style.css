@@ -178,10 +178,6 @@ main .quienes-somos p {
   margin: 1em;
 }
 
-main .card-group {
-  margin: 1em;
-  margin-top: 5em;
-}
 main .card-group .card {
   background-color: #4e5c4e;
   -webkit-box-shadow: 6px 6px 10px 3px rgba(0, 0, 0, 0.74);
@@ -196,6 +192,16 @@ main .card-group .card h5 {
 main .card-group .card p {
   color: #a1dca1;
   padding: 1em;
+}
+main .card-group .card-body {
+  color: #a1dca1;
+  text-align: center;
+}
+main .card-group .card-body p a {
+  color: #a1dca1 !important;
+}
+main .card-group-1 {
+  margin-top: 5em;
 }
 
 /*# sourceMappingURL=style.css.map */
