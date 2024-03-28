@@ -193,6 +193,12 @@ main .card-group .card p {
   color: #a1dca1;
   padding: 1em;
 }
+main .card-group .card p a {
+  color: #a1dca1;
+}
+main .card-group .card p .collapse .card-body {
+  color: #a1dca1;
+}
 main .card-group .card-body {
   color: #a1dca1;
   text-align: center;
