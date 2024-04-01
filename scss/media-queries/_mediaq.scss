@@ -1,0 +1,34 @@
+@media only screen and (min-width: 400px) {
+
+  .moñas-container{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+
+    .moñas-card{
+    
+      width: 45%;
+
+
+    }
+
+  }
+    
+  
+    
+}
+
+
+
+@media only screen and (min-width: 1024px){
+
+  .collage{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    .collage-item{
+      max-width: 33%;
+    }
+  }
+
+}

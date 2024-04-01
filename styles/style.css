@@ -210,4 +210,25 @@ main .card-group-1 {
   margin-top: 5em;
 }
 
+@media only screen and (min-width: 400px) {
+  .moñas-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .moñas-container .moñas-card {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .collage {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .collage .collage-item {
+    max-width: 33%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
